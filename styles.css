@@ -1,0 +1,50 @@
+.frameStyle {
+  position: absolute;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.TableItem {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  border-width: 2px;
+  border-color:black;
+}
+
+.TableLetterItem {
+  position: absolute;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.TableGrayItem {
+  background-color: #58555559;
+  position: absolute;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.Choosers {
+  background-color: skyblue;
+  text-align: center;
+  font-size: 15px;
+  width: 60px;
+}
+
+.btnStyles {
+  cursor: pointer;
+  margin-left: 50px;
+  border-radius: 4px;
+  background-color: white;
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.btnStyles:hover {
+  border-radius: 6px;
+  background-color: rgb(164, 167, 167);
+}
